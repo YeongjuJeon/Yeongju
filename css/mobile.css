@@ -55,9 +55,11 @@
         clear: both;
     }
     #section2 .container .s2Down .s2Box {
-        width: 90%;
+        width: 88%;
         padding: 20px 20px;
         margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #section2 .container .s2Down .s2Box h3 {
         font-size: 20px;
@@ -193,6 +195,7 @@
         border-radius: 20px;
         height: 140px;
         padding: 30px 0;
+        position: relative;
     }
     #section4 .container .s4Bottom2 .swiper-wrapper .swiper-slide h3 {
         font-size: 20px;
@@ -206,25 +209,21 @@
         line-height: 20px;
     }
     #section4 .container .s4Bottom2 .swiper-wrapper .swiper-slide a {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
         float: right;
-        margin: 30px 20px 0 0;
+        /* margin: 20px 20px 0 0; */
         width: 40px;
         height: 40px;
         border-radius: 50%;
         background-color: #2100b1;
         background-image: url("../img/right2.png");
-        background-size: 30px;
+        background-size: 25px;
         background-repeat: no-repeat;
         background-position: center center;
     }
-    #section4
-        .container
-        .s4Bottom2
-        .swiper-wrapper
-        .swiper-slide:nth-child(3)
-        a {
-        margin: 10px 20px 0 0;
-    }
+
     #section5 {
     }
     #section5 .container {
@@ -301,6 +300,7 @@
         width: 100%;
         display: flex;
         margin-bottom: 50px;
+        gap: 15px;
     }
     #section6 .container .s6Bottom .s6Box {
         width: 47%;
