@@ -1,0 +1,91 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Pretendard Variable", "Pretendard", "Noto Sans KR";
+    font-size: 16px;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #f2f3f5;
+}
+.container {
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+/* ////////HEADER ////////*/
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: #02076f;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#header .headerLeft {
+    float: left;
+}
+#header .headerLeft a {
+    display: block;
+    height: auto;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+#header .headerRight {
+    display: flex;
+    float: right;
+    gap: 30px;
+    padding-top: 18px;
+}
+#header .headerRight .menu {
+}
+#header .headerRight .menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+/* /////////fOOTER ////////*/
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+}
+#footer .container {
+    padding-top: 50px;
+}
+#footer .container .footerLeft {
+    float: left;
+}
+#footer .container .footerLeft h5 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+#footer .container .footerRight {
+    float: left;
+    margin: 5px 0 0 70px;
+}
+#footer .container .footerRight p {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 10px;
+}
+#footer .container .footerRight p span {
+    margin-left: 20px;
+    color: #fff;
+}
