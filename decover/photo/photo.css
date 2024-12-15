@@ -1,0 +1,62 @@
+#section1 {
+    margin: 200px 0;
+}
+#section1 .container {
+}
+#section1 .container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+#section1 .container p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+#section1 .container div {
+    width: 100%;
+    height: 450px;
+    background-image: url(../../img/decover/photography/9944.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+#section2 {
+}
+#section2 .container {
+}
+#section2 .container .s2W {
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 200px;
+}
+#section2 .container .s2M {
+    display: none;
+}
+#section3 {
+}
+#section3 .container {
+}
+#section3 .container .s3Box {
+    margin-bottom: 100px;
+}
+#section3 .container .s3Box .s3BoxImg {
+    display: flex;
+}
+#section3 .container .s3Box .s3BoxImg img {
+    width: 50%;
+    height: 600px;
+}
+#section3 .container .s3Box .s3BoxText {
+}
+#section3 .container .s3Box .s3BoxText h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}

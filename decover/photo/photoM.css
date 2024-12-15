@@ -1,0 +1,52 @@
+@media screen and (max-width: 500px) {
+    #section1 {
+    }
+    #section1 .container {
+    }
+    #section1 .container h1 {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+    }
+    #section1 .container p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    #section1 .container div {
+        height: 300px;
+    }
+    #section2 {
+    }
+    #section2 .container {
+    }
+    #section2 .container .s2W {
+        display: none;
+    }
+    #section2 .container .s2M {
+        display: block;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 100px;
+    }
+    #section3 {
+    }
+    #section3 .container {
+    }
+    #section3 .container .s3Box {
+    }
+    #section3 .container .s3Box .s4BoxImg {
+    }
+    #section3 .container .s3Box .s3BoxImg img {
+        width: 50%;
+        height: 200px;
+        object-fit: cover;
+    }
+    #section3 .container .s3Box .s4BoxText {
+    }
+    #section3 .container .s3Box .s3BoxText h5 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

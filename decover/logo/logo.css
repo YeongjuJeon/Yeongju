@@ -25,12 +25,15 @@
 #section2 {
     margin-bottom: 200px;
 }
-#section2 .container p {
+#section2 .container p.s2W {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 100px;
+}
+#section2 .container p.s2M {
+    display: none;
 }
 #section2 .container .threeCircle {
     width: 100%;
@@ -69,11 +72,14 @@
     font-size: 20px;
     font-weight: 600;
 }
-#section3 .container .s3box p {
+#section3 .container .s3box .s3textW {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     margin-top: 10px;
+}
+#section3 .container .s3box .s3textM {
+    display: none;
 }
 #section4 {
     width: 100%;
@@ -102,8 +108,130 @@
     background-image: url(../../img/decover/logo/logo3.png);
     background-size: cover;
 }
-#section4 p {
+#section4 p.s4W {
     text-align: center;
     font-size: 16px;
     line-height: 24px;
+}
+#section4 p.s4M {
+    display: none;
+}
+#section5 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+}
+#section5 .container {
+}
+#section5 .container .s5ColorBox {
+    height: 200px;
+    clear: both;
+    margin-bottom: 100px;
+}
+#section5 .container .s5ColorBox h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 135px;
+    margin-left: 20px;
+}
+#section5 .container .s5ColorBox span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20px;
+}
+#section5 .container .s5ColorBox .s5Color1 {
+    color: #fff;
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: #08168f;
+}
+#section5 .container .s5ColorBox .s5Color2 {
+    color: #fff;
+    float: left;
+    background-color: #1b33bf;
+    width: 25%;
+    height: 200px;
+}
+#section5 .container .s5ColorBox .s5Color3 {
+    color: #fff;
+    float: left;
+    background-color: #000;
+    width: 25%;
+    height: 200px;
+}
+
+#section5 .container .s5W {
+    clear: both;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+#section5 .container .s5M {
+    display: none;
+}
+#section6 {
+    margin-bottom: 200px;
+}
+
+#section6 .container {
+    display: flex;
+}
+#section6 .container .s6Font {
+    width: 50%;
+}
+#section6 .container .s6Font div {
+    width: 100%;
+    height: 200px;
+}
+#section6 .container .s6Font div img {
+    margin-top: 50px;
+    width: 500px;
+}
+#section6 .container .s6Logo {
+    width: 50%;
+}
+#section6 .container .s6Logo div {
+    width: 100%;
+    height: 200px;
+}
+#section6 .container .s6Logo div img {
+    width: 100%;
+    height: 200px;
+}
+#section6 .container .s6LogoM {
+    display: none;
+}
+#section7 {
+    margin-bottom: 200px;
+}
+#section7 .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#section7 .container .s7Img1 {
+    width: 49%;
+    margin-right: 2%;
+    height: 400px;
+    background-image: url(../../img/decover/logo/mockup1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section7 .container .s7Img2 {
+    width: 49%;
+    height: 400px;
+    background-image: url(../../img/decover/logo/mockup2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section7 .container .s7Img3 {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../img/decover/logo/mockup3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
 }

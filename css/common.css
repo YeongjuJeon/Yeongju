@@ -89,3 +89,50 @@ body {
     margin-left: 20px;
     color: #fff;
 }
+
+/*////////// MOBILE!!! ////////*/
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #header {
+        height: 50px;
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        top: 0;
+    }
+    #header .container .headerLeft a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #header .container .headerRight {
+        display: none;
+    }
+
+    /* FOOTER */
+    #footer .container .footerLeft {
+        clear: both;
+    }
+    #footer .container .footerLeft h5 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    #footer .container .footerRight {
+        clear: both;
+        margin: 20px 0 0 0;
+    }
+    #footer .container .footerRight p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    #footer .container .footerRight p span {
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff !important;
+    }
+}

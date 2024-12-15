@@ -1,0 +1,153 @@
+#section1 {
+}
+#section1 .container {
+}
+#section1 .container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 200px;
+}
+#section1 .container p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0 200px 0;
+}
+#section1 .container div {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../img/decover/detail/9818.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+#section2 {
+}
+#section2 .container {
+}
+#section2 .container .s2W {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 200px;
+}
+#section2 .container .s2M {
+    display: none;
+}
+#section2 .container .s2Frame {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+#section2 .container .s2Frame .s2Box {
+    width: 32%;
+    height: auto;
+    margin-bottom: 100px;
+}
+#section2 .container .s2Frame .s2Box a {
+    display: block;
+    width: 100%;
+    height: 390px;
+    background-color: #eee;
+}
+#section2 .container .s2Frame .s2Box h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 0 0 10px;
+}
+#section2 .container .s2Frame .s2Box p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 10px 0 0 10px;
+}
+#section2 .container .s2Frame .s2Box1 a {
+    background-image: url(../../img/decover/detail/detail_glitter.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 .container .s2Frame .s2Box2 a {
+    background-image: url(../../img/decover/detail/detail_stand.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 .container .s2Frame .s2Box3 a {
+    background-image: url(../../img/decover/detail/detail_tok.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 .container .s2Frame .s2Box4 a {
+    background-image: url(../../img/decover/detail/detail_prop.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 .container .s2Frame .s2Box5 a {
+    background-image: url(../../img/decover/detail/detail_korotto.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 .container .s2Frame .s2Box6 a {
+    background-image: url(../../img/decover/detail/detail_keyring.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section3 {
+    margin: 100px 0 200px 0;
+}
+#section3 .container {
+}
+#section3 .container h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#section3 .container p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+#section3 .container .s3Box {
+    display: flex;
+}
+#section3 .container h3.s3Special {
+    margin-top: 100px;
+}
+#section3 .container .s3Box div {
+    width: 50%;
+    height: auto;
+    /* background-color: orange; */
+}
+#section3 .container .s3Box div img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+#section3 .container .s3Box h3 {
+    width: 96%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#section3 .container .s3Box p {
+    width: 96%;
+    margin-left: 4%;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
