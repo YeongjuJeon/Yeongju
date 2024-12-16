@@ -1,2 +1,125 @@
 @media screen and (max-width: 500px) {
+    #section1 {
+    }
+    #section1 .container {
+    }
+    #section1 .container h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    #section1 .container p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    #section1 .container div {
+        background-image: url(../../img/aupice/detail_Mbg.png);
+        height: 300px;
+    }
+    #section2 {
+        margin-bottom: 100px;
+    }
+    #section2 .container {
+    }
+    #section2 .container .s2W {
+        display: none;
+    }
+    #section2 .container .s2M {
+        display: block;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #section3 {
+        margin-bottom: 100px;
+    }
+    #section3 .container {
+    }
+    #section3 .container .s3CircleFrame {
+    }
+    #section3 .container .s3CircleFrame .s3Circle {
+        width: 120px;
+        height: 120px;
+        border: 1px solid #666;
+    }
+    #section3 .container .s3CircleFrame .s3Circle h5 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 43px;
+    }
+    #section3 .container .s3CircleFrame .s3Circle span {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 3px;
+    }
+    #section3 .container .s3W {
+        display: none;
+    }
+    #section3 .container .s3M {
+        display: block;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    #section4 {
+    }
+    #section4 .container {
+    }
+    #section4 .container .s4ColorBox {
+        flex-wrap: wrap;
+    }
+    #section4 .container .s4ColorBox .s4Color {
+    }
+    #section4 .container .s4ColorBox .s4Color h5 {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    #section4 .container .s4ColorBox .s4Color span {
+        font-size: 14px;
+    }
+    #section4 .container .s4ColorBox .s4Color1 {
+        width: 100%;
+        height: 150px;
+    }
+    #section4 .container .s4ColorBox .s4Color2 {
+        width: 50%;
+        height: 150px;
+    }
+    #section4 .container .s4ColorBox .s4Color3 {
+        width: 50%;
+        height: 150px;
+    }
+    #section4 .container .s4LogoBox {
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+    #section4 .container .s4LogoBox .s4Logo {
+        width: 49%;
+        height: 190px;
+    }
+    #section4 .container .s4LogoBox .s4Logo img {
+    }
+    #section4 .container .s4W {
+        display: none;
+    }
+    #section4 .container .s4M {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-top: 100px;
+    }
+    #section5 {
+        margin-top: 100px;
+    }
+    #section5 .container {
+        flex-wrap: wrap;
+    }
+    #section5 .container .s5Box1 {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    #section5 .container .s5Box2 {
+        width: 100%;
+        height: 250px;
+    }
 }

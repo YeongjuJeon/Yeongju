@@ -1,0 +1,67 @@
+@media screen and (max-width: 500px) {
+    #section1 {
+    }
+    #section1 .container {
+    }
+    #section1 .container h1 {
+        font-size: 28px;
+    }
+    #section1 .container p {
+        font-size: 14px;
+    }
+    #section1 .container div {
+        background-image: url(../../img/aupice/mainbanner6_m.png);
+        height: 300px;
+    }
+    #section2 {
+    }
+    #section2 .container {
+    }
+    #section2 .container .s2W {
+        display: none;
+    }
+    #section2 .container .s2M {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-bottom: 100px;
+    }
+    #section3 {
+    }
+    #section3 .container {
+    }
+    #section3 .container .s3Img1 {
+        background-image: url(../../img/aupice/mainbanner7_m.png);
+    }
+    #section3 .container .s3Img2 {
+        background-image: url(../../img/aupice/mainbanner5_m.png);
+    }
+    #section3 .container .s3Img3 {
+        background-image: url(../../img/aupice/mainbanner4_m.png);
+    }
+    #section4 {
+    }
+    #section4 .container {
+    }
+    #section4 .container .s4W {
+        display: none;
+    }
+    #section4 .container .s4M {
+        display: block;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 100px;
+    }
+    #section4 .container .s4BoxFrame {
+        width: 100%;
+        margin-bottom: 50px;
+        height: auto;
+    }
+    #section4 .container .s4BoxFrame .s4Box {
+        height: auto;
+    }
+    #section4 .container .s4BoxFrame .s4Box img {
+    }
+}

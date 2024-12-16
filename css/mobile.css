@@ -315,11 +315,14 @@
     #section6 .container .s6Bottom .s6Box h6 {
         font-size: 16px;
         font-weight: 600;
+        margin-top: 20px;
     }
     #section6 .container .s6Bottom .s6Box p {
         font-size: 14px;
         font-weight: 400;
         margin-top: 5px;
+        line-height: 22px;
+        margin-top: 10px;
     }
     #footer {
     }
